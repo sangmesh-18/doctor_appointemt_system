@@ -1,3 +1,5 @@
+# Ignore ALL env files anywhere
 .env
-.env.local
-node_modules
+*/.env
+**/.env
+*.env
