@@ -39,7 +39,7 @@ app.use(async (req, res, next) => {
 app.use(express.json());
 app.use(cors(
     {
-        origin:["http://localhost:5173","http://localhost:5174", "https://doctor-appointment-main.onrender.com"],
+        origin:["http://localhost:5173","http://localhost:5174", "https://doctor-appointemt-system.onrender.com/"],
         credentials: true,
     }
 ));

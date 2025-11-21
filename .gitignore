@@ -3,3 +3,15 @@
 */.env
 **/.env
 *.env
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore test files
+test/
+
+# Ignore documentation
+docs/
